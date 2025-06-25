@@ -1,0 +1,34 @@
+{
+  "Playfield": [
+    {
+      "CardFace": 2,
+      "CardSuit": 0,
+      "Position": {
+        "x": 300,
+        "y": 1000
+      }
+    },
+    {
+      "CardFace": 4,
+      "CardSuit": 1,
+      "Position": {
+        "x": 500,
+        "y": 1000
+      }
+    }
+  ],
+  "BaseCard": {
+    "CardFace": 3,
+    "CardSuit": 2
+  },
+  "Stack": [
+    {
+      "CardFace": 5,
+      "CardSuit": 3
+    },
+    {
+      "CardFace": 6,
+      "CardSuit": 0
+    }
+  ]
+}
