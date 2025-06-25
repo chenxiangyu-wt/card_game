@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Classes">
+      <UniqueIdentifier>{7d467bd2-7503-4b39-88d3-ae83d64cc9e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Classes\configs">
+      <UniqueIdentifier>{f4af2041-0038-44ad-b3e5-3084d8aee926}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Classes\managers">
+      <UniqueIdentifier>{b2ed94f8-bdd4-4d38-aef7-5ea6555ea223}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Classes\models">
+      <UniqueIdentifier>{856a5189-03df-4013-8f3d-01ed2fb40e2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Classes\controllers">
+      <UniqueIdentifier>{b49bac7f-8d49-44a4-8b03-e32f08f18925}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Classes\views">
+      <UniqueIdentifier>{cefbde17-490f-417f-b75b-b9d5eaf86060}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Classes\configs\loaders">
+      <UniqueIdentifier>{0a2c8e1e-fb11-4426-b91f-d499686d8439}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Classes\configs\models">
+      <UniqueIdentifier>{02b49c2b-6b87-42da-84df-8dc0bf755f72}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="CardSprite.cpp">
+      <Filter>src\Classes\views</Filter>
+    </ClCompile>
+    <ClCompile Include="GameView.cpp">
+      <Filter>src\Classes\views</Filter>
+    </ClCompile>
+    <ClCompile Include="GameController.cpp">
+      <Filter>src\Classes\controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Undomanager.cpp">
+      <Filter>src\Classes\managers</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelConfigLoader.cpp">
+      <Filter>src\Classes\configs\loaders</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="CardSprite.h">
+      <Filter>src\Classes\views</Filter>
+    </ClInclude>
+    <ClInclude Include="GameView.h">
+      <Filter>src\Classes\views</Filter>
+    </ClInclude>
+    <ClInclude Include="GameController.h">
+      <Filter>src\Classes\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="UndoModel.h">
+      <Filter>src\Classes\models</Filter>
+    </ClInclude>
+    <ClInclude Include="Undomanager.h">
+      <Filter>src\Classes\managers</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelConfigLoader.h">
+      <Filter>src\Classes\configs\loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="CardModel.h">
+      <Filter>src\Classes\configs\models</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelConfig.h">
+      <Filter>src\Classes\configs\models</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="level_1.json">
+      <Filter>src</Filter>
+    </None>
+    <None Include="level_2.json">
+      <Filter>src</Filter>
+    </None>
+    <None Include="level_3.json">
+      <Filter>src</Filter>
+    </None>
+  </ItemGroup>
+</Project>
